@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Abishkar's Web.org</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="second.css" rel="stylesheet">
+
+  
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+
+<ul>
+
+<br>
+  <li><a href="Index.html"><img src="logotrinity.png" height="50px"  width="56px" class="lol"></a></li>
+
+<br>
+
+
+  <li><form id="form" role="search">
+  <input type="search" id="query" name="q"
+   placeholder="    Search stuffs here..."
+   aria-label="Search through site content" style="width: 300px; height: 40px;  border-radius: 20px;">
+ <i class="fas fa-search search-icon" onclick="here()"></i>
+  <script>
+    function here()
+    {
+      alert("Success Clicked!");
+    }
+  </script>
+
+</form></li>
+
+
+  <li class="this"><a href="Index.html">Home</a></li>
+  <li class="this"><a href="a.html">Blogs</a></li>
+  <li class="r"><a href="animelist.html">FAQs</a></li>
+ 
+
+</ul>
+
+<img src="tom.gif" align="left" height="240px" width="138px" class="p11" id="w1">
+<img src="left.gif" align="left" height="240px" width="138px" class="p111" id="w3">
+
+
+<img src="Rkwm.gif"   width="150px" class="p22" id="w2">
+<br>
+<br>
+<br>
+<br>
+<p class="damn"><marquee>Website created in March 8, 2024.    ---------------------   Version 1.  ----------------- updated at 3/10/24</marquee></p>
+
+<!-- --------------------------------------------COUNTER-------------------------------------------- -->
+
+<div class="these">
+<h1 class="banner"></h1>
+
+<div class="examcounter">
+<br>
+<br>
+<br>
+<br>
+  <h1 class="countdown">Exam Countdown</h1>
+  <p id="countdown"></p>
+
+</div>
+</div>
+  <script>
+    // Set the date and time of the exam
+    const examDate = new Date('2024-03-25T01:00:00').getTime();
+
+    // Update the countdown every second
+    const countdown = setInterval(function() {
+      // Get the current date and time
+      const now = new Date().getTime();
+
+      // Calculate the difference between now and the exam date
+      const difference = examDate - now;
+
+      // Calculate days, hours, minutes, and seconds
+      const days = Math.floor(difference / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
+      const seconds = Math.floor((difference % (1000 * 60)) / 1000);
+
+      // Display the countdown
+      document.getElementById('countdown').innerHTML = `Time left: ${days}d ${hours}h ${minutes}m ${seconds}s`;
+
+      // If the countdown is over, display a message and stop the countdown
+      if (difference < 0) {
+        clearInterval(countdown);
+        document.getElementById('countdown').innerHTML = 'The exam has started!';
+      }
+    }, 1000);
+  </script>
+
+
+<!-- ----------------------------------------------------------------------------------------------- -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="ab">
+  
+<br>
+
+<h2 align="center"> EVENTS </h2> 
+<br>
+<div class="regular">
+    <b>Version 1.5 Updates</b>
+    
+    <p>  Good Luck!</p>
+    <p>  Cure your boredom with music</p>
+    <p>  Fixed 1.4 bugs</p>
+    <p>  You can now play some 🌶️ </p>
+    <p>  Final update for Version 1 overall ended at March 13,2024</p>
+</div>
+
+
+  <br>
+<br>
+<table class="seperate">
+  <tr>
+    <td style="text-align: center;"><b>HOT🌶️</b>
+      
+    <p> Play Quiz Now!</p>
+    <p>  </p>
+    <p>  <button class="fa fa-play" id="jeez" onclick="country()"> Play Now!</button>
+            <script>
+                function country(){
+                    window.location.href="https://aabishkar0002.github.io/Quiz.v1.github.io/";
+                }
+            </script>
+</p>
+  </td>
+
+  
+    <td><img src="hot.png" height="200px" width="140px" class="new0"></td>
+  </tr>    
+  </table>  
+
+  <table class="seperate1">
+  <tr>
+    <td style="text-align: center;"><b>HOT🌶️</b>
+      
+    <p> Music is here!</p>
+    <p>  </p>
+    <p>  <button class="fa fa-play"  onclick="countrys()"> Listen Now!</button>
+            <script>
+                function countrys(){
+                    window.location.href="https://aabishkar0002.github.io/music.gihub.io/";
+                }
+            </script>
+</p>
+  </td>
+
+  
+    <td><img src="m.png" height="200px" width="260px" style="margin-left:20px;"></td>
+  </tr>    
+  </table>  
+<br>
+<br>
+
+<br>
+<br>
+
+
+<div class="regular">
+  <br>
+<br>
+<div class="routine1">
+      <b>Regular Routine</b>
+      <br>
+      <br>
+    <img src="updated.jpg" height="600px" width="950px" style="margin-left: 45px;" id="shutup">
+</div>      
+<br>
+<br>
+</div>
+
+<br>
+<div class="regular">
+
+ <h1> Oscars 2024 Winners: The Two Hyped! </h1>
+<h3>The list of two winners of the 96th Academy Awards.</h3>
+<br>
+<p><b>Best Picture : “Oppenheimer”</b></p>
+<br>
+<p>A winner in seven categories including best film, best director and best actor, Oppenheimer is the first authentic blockbuster to dominate the Academy Awards since The Lord of the Rings: Return of the King in 2004. Its $960m worldwide box office dwarfs such apparently “popular” films as Everything Everywhere All at Once ($111m) and Argo ($227m). While it’s fair to point out, as Gosling did, that it rode “Barbie’s coat tails all summer” as part of #Barbenheimer, Oppenheimer’s box office results are possibly even more impressive than Barbie’s $1.4bn, given the essentially dour nature of its narrative and themes, and its three-hour running time.</p>
+
+<p>Nolan uncorked some comedy on the awards campaign trail, turning a hose on Stephen Colbert and doing a Benny Hill-style chase</p>
+
+<br>
+
+<img src="op.jpg" height="300px" width="500px" style="margin-left:205px;">
+
+<br>
+
+<p>Oppenheimer’s ability to thrill audiences over such operatic length is yet another feather in its cap, given its sparing deployment of such Christopher Nolan standbys as colossal explosions or vertiginous visual effects. Instead the film leans on exceptional performances, notably from its two acting Oscar winners: Cillian Murphy as scientist J Robert Oppenheimer, and Robert Downey Jr as Lewis Strauss, the slippery former head of the Atomic Energy Commission. As Nolan’s film flips between time periods, a uniformly strong cast articulate the exhilarations, crises, and ambiguities contained in what was a momentous era.</p>
+<br>
+<br>
+
+<p><b>Best Animated Feature :  “The Boy and the Heron”</b></p>
+<br>
+<p>Studio Ghibli's 'The Boy and the Heron' by Hayao Miyazaki wins Best Animated Feature at Oscars 2024.
+Hayao Miyazaki just won his second Oscar. The renowned Japanese auteur earned the Best Animated Feature award. It was for his standout movie, The Boy and the Heron. Other contenders for this award included films like Spider-Man: Across the Spider-Verse, Nimona, Robot Dreams, and Elemental. This is not just a win. With this victory, Miyazaki reaffirms his reputation as a major force in Japanese cinema. It also confirms his influence in the animation world.</p>
+
+<br>
+
+<img src="bh.jpg" height="300px" width="500px" style="margin-left:205px;">
+
+<br>
+
+<p>All about The Boy and the Heron</p>
+<p>There's a 2023 Japanese animation called The Boy and the Heron from Studio Ghibli. Simple name but also known by Hepburn: Kimitachi wa Dō Ikiru ka. The Japanese fantasy film written and directed by Hayao Miyazaki registered its big win in Oscars Best Animated Feature 2024. The plot? It's about a boy, Mahito Maki. It's set during the Pacific War. Sadly, Mahito's mom passes. He moves to the countryside. There, he finds a deserted tower close to his new house. The heron? It's grey. It talks! His adventure? It's all about that.</p>
+
+</p>
+</div>
+<br>
+
+<div class="bottom">
+<img src="1Gry.gif" height="170px" width="250px">
+
+<div class="bitch">
+<p> <b>" Thankyou for the Visit!!! "  -  By Abishkar Kunwar </b></p>
+</div>
+</div>
+</body>
+
+</html>
+
+
